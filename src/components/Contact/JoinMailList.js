@@ -103,6 +103,7 @@ export default function Contact() {
                                 <Form.Control as='textarea' rows={3} value={comments} onChange={(e) => setComments(e.target.value)} />
                             </Form.Group>
                         </Form.Row>
+                        <h1>Insert Captcha</h1>
                         <Button variant='dark' onClick={handleSubmit}>
                             Join The Mail List
                         </Button>
