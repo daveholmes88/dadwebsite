@@ -15,7 +15,7 @@ export default function TShirts() {
                         <Col sm={8}>
                             <div className='text-center'>
                                 <Image
-                                    src='/Music/TShirts1.jpg'
+                                    src='/Music/Tshirts1.jpg'
                                     alt='lifeShirts'
                                     fluid='true'
                                 />
