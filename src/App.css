@@ -1,4 +1,6 @@
-#nav-dropdown:after { display: none }
+#nav-dropdown:after { 
+  display: none;
+}
 
 #home-carousel img{
     width: auto;
@@ -35,4 +37,8 @@
     object-fit: cover;
     width: '100%';
     overflow: auto;
+}
+
+body{
+  overflow-x: hidden;
 }

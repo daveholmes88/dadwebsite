@@ -13,12 +13,12 @@ export default function NavBar() {
                 </Nav>
                 <Nav className="mr-xs-2">
                     <Nav.Item>
-                        <Nav.Link href="/Feldenkrais.html"><h4>Feldenkrais</h4></Nav.Link>
+                        <Nav.Link href="/Feldenkrais.html"><p>Feldenkrais</p></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="/Becoming.html"><h4>Square Dance Calling</h4></Nav.Link>
+                        <Nav.Link href="/Becoming.html"><p>Square Dance Calling</p></Nav.Link>
                     </Nav.Item>
-                    <NavDropdown alignRight id='nav-dropdown' title={<span><i className="navbar-toggler-icon"></i></span>}>
+                    <NavDropdown alignRight id='nav-dropdown' class="navbar-toggle collapsed" title={<span><i className="navbar-toggler-icon"></i></span>}>
                         <NavDropdown.Item href='/Dance/DanceSocial.html'>Dance</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/SciFi/Anvil.html">Science Fiction</NavDropdown.Item>

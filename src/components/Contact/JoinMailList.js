@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import ReCAPTCHA from "react-google-recaptcha"
 
 import ContactIndex from './ContactIndex'
 
@@ -17,9 +18,19 @@ export default function Contact() {
     const [interest, setInterest] = useState('general')
     const [website, setWebsite] = useState('')
     const [comments, setComments] = useState('')
+    const [verified, setVerified] = useState(false)
 
     const handleSubmit = () => {
-        console.log('yayyyyyyyyyyyyy')
+        if (verified) {
+            console.log('verified is true')
+        }
+        else {
+            console.log('verified is false')
+        }
+    }
+
+    const onChange = () => {
+        setVerified(true)
     }
 
     console.log(interest)
@@ -103,6 +114,11 @@ export default function Contact() {
                                 <Form.Control as='textarea' rows={3} value={comments} onChange={(e) => setComments(e.target.value)} />
                             </Form.Group>
                         </Form.Row>
+                        <ReCAPTCHA
+                            sitekey='6LfuL_gZAAAAAJ3wljcoP7LpR_V1YTw-fRmL6wcW'
+                            onChange={onChange}
+                            render="explicit"
+                        />
                         <h1>Insert Captcha <a href='https://www.youtube.com/watch?v=vrbyaOoZ-4Q'>tutorial</a></h1>
                         <Button variant='dark' onClick={handleSubmit}>
                             Join The Mail List
