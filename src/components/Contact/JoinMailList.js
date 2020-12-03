@@ -119,7 +119,6 @@ export default function Contact() {
                             onChange={onChange}
                             render="explicit"
                         />
-                        <h1>Insert Captcha <a href='https://www.youtube.com/watch?v=vrbyaOoZ-4Q'>tutorial</a></h1>
                         <Button variant='dark' onClick={handleSubmit}>
                             Join The Mail List
                         </Button>
