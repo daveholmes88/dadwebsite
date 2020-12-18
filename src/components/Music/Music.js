@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import MusicIndex from './MusicIndex'
+import MusicFootnote from './MusicFootnote'
 
 export default function Music() {
 
@@ -67,10 +68,8 @@ export default function Music() {
                             </p>
                             </div>
                         </Col>
-
-
                     </Row>
-
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>
