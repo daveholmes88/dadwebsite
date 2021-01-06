@@ -6,6 +6,7 @@ import "./App.css"
 
 import NavBar from "./components/Navbar";
 import Home from "./components/Home";
+import Admin from "./components/Admin";
 
 import JoinMailList from "./components/Contact/JoinMailList";
 import ContactBruce from "./components/Contact/ContactBruce";
@@ -116,6 +117,8 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' render={routerProps => <Home />} />
+
+          <Route exact path='/admin' render={routerProps => <Admin />} />
 
           <Route exact path='/Becoming.html' render={routerProps => <Becoming />} />
           <Route exact path='/BecomingTOC.html' render={routerProps => <BecomingTOC />} />

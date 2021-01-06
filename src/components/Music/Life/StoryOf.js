@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
 import LifeIndex from './LifeIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function StoryOf() {
 
@@ -209,6 +210,7 @@ export default function StoryOf() {
                     <p><a href="mailto:chrismacmusic@comcast.net">Chris McNamara: Vocals</a></p>
                     <p><a href="mailto:Rick@RicketyMusic.com">Rick Neeley: Vocals, Guitar</a></p>
                     <p><a href="mailto:dicconlee@hotmail.com">Diccon Lee: Vocals, Guitar</a></p>
+                    <MusicFootnote />
                 </Col>
 
 

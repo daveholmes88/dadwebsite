@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 import LifeIndex from './LifeIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function WesternSprings() {
 
@@ -40,6 +41,7 @@ export default function WesternSprings() {
                             </div>
                         </Col>
                     </Row>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import LifeIndex from './LifeIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function EvanstonReview() {
 
@@ -56,6 +57,7 @@ export default function EvanstonReview() {
                         Holmes said he is happier now than he has been in years because he is doing what he loves, and he's trying to put tough times behind him.<br></br>
                         "I'm just taking stock, trying to find the good in it," he said.<br></br>
                         "I'm happy. Sometimes I'm pinching myself lately!"</p>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>

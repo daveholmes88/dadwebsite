@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
 import OldIndex from './OldIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function ChicagoTribune() {
 
@@ -33,6 +34,7 @@ export default function ChicagoTribune() {
                         <p>He approached songwriting with similar zeal, filling countless notebooks with lyrics and becoming a regular on the coffeehouse circuit. And while folk remains Holmes' first love, his latest album, "The Old King's Reel," touches on everything from Celtic music to sacred harp singing. Strumming his acoustic guitar, Holmes delivers his words like an Olde English minstrel—fitting, because his songs are populated by fair maidens and stern royalty.But these songs are more than simple fairy tales, featuring Holmes delivering touching lines like "Keep me in your heart/Never doubt I loved you" with doe-eyed sincerity.</p>
                         <p>Still, the singer is quick to admit he's a work in progress, saying, "It takes a good, long time to improve [as a songwriter]." So each day he'll pull out his notebook and further immerse himself in song. And while some tunes come together quickly, others are far more troublesome. Holmes tells of one ditty that he's been working on, off-and-on, for nearly a decade. "Others keep telling me to scrap it," he says. "But there's something in there I like. There's something that keeps drawing me back."</p>
                     </div>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>
