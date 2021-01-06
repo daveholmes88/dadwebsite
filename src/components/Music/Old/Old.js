@@ -5,6 +5,7 @@ import reactAudioPlayerProStyle from 'react-audio-player-pro/dist/style.css';
 
 
 import OldIndex from './OldIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function Old() {
 
@@ -72,84 +73,89 @@ export default function Old() {
             <Row>
                 <OldIndex />
                 <Col>
-                    <Image
-                        src='/Music/BHolmes600dpiOKR.jpg'
-                        alt="okr"
-                        fluid='true'
-                    />
-                    <br></br><br></br>
-                    <Card border='dark'>
-                        <>
-                            <AudioPlayerControlSprite />
-                            <AudioPlayer
-                                trackList={audioTrackList}
-                                className="LifePlayer"
-                                defaultState={{
-                                    isMuted: false,
-                                    activeIndex: 0,
-                                    isShuffleOn: false,
-                                    isTrackListOpen: true,
-                                    repeatingState: 'none',
-                                }}
+                    <Row>
+                        <Col>
+                            <Image
+                                src='/Music/BHolmes600dpiOKR.jpg'
+                                alt="okr"
+                                fluid='true'
                             />
-                        </>
-                    </Card>
-                </Col>
-                <Col>
-                    <div className='text-center'>
-                        <p>
-                            <span class='quote'>Bruce has delivered a beautiful CD with great songs and beautiful music.</span>
-                            <br></br>
+                            <br></br><br></br>
+                            <Card border='dark'>
+                                <>
+                                    <AudioPlayerControlSprite />
+                                    <AudioPlayer
+                                        trackList={audioTrackList}
+                                        className="LifePlayer"
+                                        defaultState={{
+                                            isMuted: false,
+                                            activeIndex: 0,
+                                            isShuffleOn: false,
+                                            isTrackListOpen: true,
+                                            repeatingState: 'none',
+                                        }}
+                                    />
+                                </>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <div className='text-center'>
+                                <p>
+                                    <span class='quote'>Bruce has delivered a beautiful CD with great songs and beautiful music.</span>
+                                    <br></br>
                             Freddy Celis, Rootstime
                         </p>
-                        <p>
-                            <span class='quote'>Great stuff. Like it a lot!!!!!</span>
-                            <br></br>
+                                <p>
+                                    <span class='quote'>Great stuff. Like it a lot!!!!!</span>
+                                    <br></br>
                             Martin van der Laan, Radio Compagnie
                         </p>
-                        <p>
-                            <span class='quote'>A very cool CD.</span>
-                            <br></br>
+                                <p>
+                                    <span class='quote'>A very cool CD.</span>
+                                    <br></br>
                             Kevin Elliott, WEFT
                         </p>
-                        <p>
-                            <span class='quote'>Deep feeling and always inspiring performances. I enjoyed it from start to finish, and I found great music in it, always accompanied by intelligent lyrics.</span>
-                            <br></br>
+                                <p>
+                                    <span class='quote'>Deep feeling and always inspiring performances. I enjoyed it from start to finish, and I found great music in it, always accompanied by intelligent lyrics.</span>
+                                    <br></br>
                             Remo Ricaldone, Susa Onda Radio, Italy
                         </p>
-                        <h3>Buy it Now: $10</h3>
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick" />
-                            <input type="hidden" name="hosted_button_id" value="UKYJ2GW856ZE2" />
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                        </form>
-                        <p>or</p>
-                        <h3>CD & T-shirt Bundle for $14</h3>
-                        <Image
-                            src='/Music/OldKingReelShirt.jpg'
-                            fluid='true'
-                            alt='okrshirt'
-                        />
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick" />
-                            <input type="hidden" name="hosted_button_id" value="YSD645NSTBC9N" />
-                            <table>
-                                <tbody><tr><td><input type="hidden" name="on0" value="Comes with a t-shirt for $4 more" />Comes with a t-shirt for $4 more</td></tr><tr><td><select name="os0">
-                                    <option value="Small">Small </option>
-                                    <option value="Medium">Medium </option>
-                                    <option value="Large">Large </option>
-                                    <option value="XL">XL </option>
-                                    <option value="2XL">2XL </option>
-                                    <option value="3XL">3XL </option>
-                                    <option value="4XL">4XL </option>
-                                </select> </td></tr>
-                                </tbody>
-                            </table>
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-                        </form>
-                    </div>
+                                <h3>Buy it Now: $10</h3>
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                    <input type="hidden" name="hosted_button_id" value="UKYJ2GW856ZE2" />
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                </form>
+                                <p>or</p>
+                                <h3>CD & T-shirt Bundle for $14</h3>
+                                <Image
+                                    src='/Music/OldKingReelShirt.jpg'
+                                    fluid='true'
+                                    alt='okrshirt'
+                                />
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <input type="hidden" name="cmd" value="_s-xclick" />
+                                    <input type="hidden" name="hosted_button_id" value="YSD645NSTBC9N" />
+                                    <table>
+                                        <tbody><tr><td><input type="hidden" name="on0" value="Comes with a t-shirt for $4 more" />Comes with a t-shirt for $4 more</td></tr><tr><td><select name="os0">
+                                            <option value="Small">Small </option>
+                                            <option value="Medium">Medium </option>
+                                            <option value="Large">Large </option>
+                                            <option value="XL">XL </option>
+                                            <option value="2XL">2XL </option>
+                                            <option value="3XL">3XL </option>
+                                            <option value="4XL">4XL </option>
+                                        </select> </td></tr>
+                                        </tbody>
+                                    </table>
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                </form>
+                            </div>
+                        </Col>
+                    </Row>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>

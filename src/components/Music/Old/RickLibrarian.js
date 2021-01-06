@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap'
 
 import OldIndex from './OldIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function RickLibrarian() {
 
@@ -35,14 +36,19 @@ export default function RickLibrarian() {
                         </Col>
                     </Row>
                     <p>posted by ricklibrarian at 6:58 AM, 11/15/2010</p>
-                    <h4>Rick at Internet Librarain 2006 - <a href="http://ricklibrarian.blogspot.com/" target="_blank" rel="noopener noreferrer">Rick's Blog</a></h4>
-                    <Image
-                        src='/Music/RickLibrarian.jpg'
-                        fluid='true'
-                        className='picture'
-                        align='left'
-                        alt='Rick'
-                    />
+                    <Row>
+                        <Col>
+                            <Image
+                                src='/Music/RickLibrarian.jpg'
+                                fluid='true'
+                                className='picture'
+                                align='left'
+                                alt='Rick'
+                            />
+                            <h4>Rick at Internet Librarain 2006 - <a href="http://ricklibrarian.blogspot.com/" target="_blank" rel="noopener noreferrer">Rick's Blog</a></h4>
+                        </Col>
+                    </Row>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>

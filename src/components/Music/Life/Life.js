@@ -5,6 +5,7 @@ import reactAudioPlayerProStyle from 'react-audio-player-pro/dist/style.css';
 
 
 import LifeIndex from './LifeIndex'
+import MusicFootnote from '../MusicFootnote'
 
 export default function Life() {
 
@@ -143,6 +144,7 @@ export default function Life() {
                             </div>
                         </Col>
                     </Row>
+                    <MusicFootnote />
                 </Col>
             </Row>
         </Container>
