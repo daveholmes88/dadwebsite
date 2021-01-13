@@ -11,13 +11,12 @@
 }
 
 #jumbotron {
-	margin-bottom: 0;
 	background: url('./HSStool.jpg') no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    /* height: 1400px */
+    background-attachment: fixed;
+    margin-bottom: 0px;
 }
 
 .picture {
@@ -42,4 +41,10 @@
 
 body{
   overflow-x: hidden;
+}
+
+#card-container {
+  overflow-y: scroll;
+  max-height: 500px;
+  padding-right: 15px;
 }

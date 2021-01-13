@@ -1,12 +1,12 @@
 import React from "react"
-import { Container, Jumbotron, Card, Row } from 'react-bootstrap';
+import { Jumbotron, Card, Row } from 'react-bootstrap';
 
 export default function Home() {
 
     return (
         <div>
             <Jumbotron id='jumbotron'>
-                <Container>
+                <div id='card-container'>
                     <Row className="justify-content-end">
                         <a href='/feldenkrais.html'>
                             <Card>
@@ -63,7 +63,7 @@ export default function Home() {
                             </Card>
                         </a>
                     </Row>
-                </Container>
+                </div>
             </Jumbotron>
         </div >
     )
