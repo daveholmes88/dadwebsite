@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Col, Image, Row } from 'react-bootstrap';
+import { Col, Image, Row } from 'react-bootstrap';
 
 export default function MusicFootnote() {
 
