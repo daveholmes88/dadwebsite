@@ -18,7 +18,6 @@ export default function MusicIndex() {
                     <h4 className='text-center'>Press Package</h4>
                     <a href='/Music/MusicPhotos.html'>Publicity Photos</a><br></br>
                     <a href='/Music/PressBio.html'>Bio</a><br></br>
-                    <a href='/Music/MusicRadio.html'>Radio</a><br></br>
                 </Container>
             </Card>
         </Col >
