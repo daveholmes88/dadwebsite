@@ -71,7 +71,6 @@ import Article from "./components/Feldenkrais/Article"
 import Music from "./components/Music/Music"
 import MusicPhoto from "./components/Music/MusicPhoto"
 import PressBio from "./components/Music/PressBio"
-import Radio from "./components/Music/Radio"
 import Life from "./components/Music/Life/Life"
 import StoryOf from "./components/Music/Life/StoryOf"
 import ConcertPhotos from "./components/Music/Life/ConcertPhotos"
@@ -123,8 +122,8 @@ function App() {
           <Redirect exact from='/Becoming.html' to='/Becoming'/>
           <Route exact path='/BecomingTOC' render={routerProps => <BecomingTOC />} />
           <Redirect exact from='/BecomingTOC.html' to='/BecomingTOC'/>
-          <Route exact path='/BecomingSPages' render={routerProps => <SamplePages />} />
-          <Redirect exact from='/Becoming5Parges.html' to='/Becoming5Pages'/>
+          <Route exact path='/Becoming5Pages' render={routerProps => <SamplePages />} />
+          <Redirect exact from='/BecomingSPages.html' to='/Becoming5Pages'/>
           <Route exact path='/BecomingQuotes' render={routerProps => <Quotes />} />
           <Redirect exact from='/BecomingQuotes.html' to='/BecomingQuotes'/>
           <Route exact path='/BecomingHowToOrder' render={routerProps => <HowToOrder />} />
@@ -135,24 +134,24 @@ function App() {
           <Route exact path='/Contact' render={routerProps => <ContactBruce />} />
           <Redirect exact from='/Touch/TouchContact.html' to='/Contact'/>
 
-          <Route exact path='/Dance/DanceSocial' render={routerProps => <SocialDance />} />
-          <Redirect exact from='/Dance/DanceSocial.html' to='/Dance/DanceSocial'/>
-          <Route exact path='/Dance/DanceBallroom' render={routerProps => <Ballroom />} />
-          <Redirect exact from='/Dance/DanceBallroom.html' to='/Dance/DanceBallroom'/>
-          <Route exact path='/Dance/DanceBarn' render={routerProps => <Barn />} />
-          <Redirect exact from='/Dance/DanceBarn.html' to='/Dance/DanceBarn'/>
-          <Route exact path='/Dance/DanceECD' render={routerProps => <EnglishCountry />} />
-          <Redirect exact from='/Dance/DanceECD.html' to='/Dance/DanceECD'/>
-          <Route exact path='/Dance/DanceFolk' render={routerProps => <Folk />} />
-          <Redirect exact from='/Dance/DanceFolk.html' to='/Dance/DanceFolk'/>
-          <Route exact path='/Dance/DancePerformance' render={routerProps => <Performance />} />
-          <Redirect exact from='/Dance/DancePerformance.html' to='/Dance/DancePerformance'/>
-          <Route exact path='/Dance/DanceScottish' render={routerProps => <ScottishCountry />} />
-          <Redirect exact from='/Dance/DanceScottish.html' to='/Dance/DanceScottish'/>
-          <Route exact path='/Dance/DanceSquare' render={routerProps => <Square />} />
-          <Redirect exact from='/Dance/DanceSquare.html' to='/Dance/DanceSquare'/>
-          <Route exact path='/Dance/DanceWhich' render={routerProps => <Try />} />
-          <Redirect exact from='/Dance/DanceWhich.html' to='/Dance/DanceWhich'/>
+          <Route exact path='/Dance/Social' render={routerProps => <SocialDance />} />
+          <Redirect exact from='/Dance/DanceSocial.html' to='/Dance/Social'/>
+          <Route exact path='/Dance/Ballroom' render={routerProps => <Ballroom />} />
+          <Redirect exact from='/Dance/DanceBallroom.html' to='/Dance/Ballroom'/>
+          <Route exact path='/Dance/Barn' render={routerProps => <Barn />} />
+          <Redirect exact from='/Dance/DanceBarn.html' to='/Dance/Barn'/>
+          <Route exact path='/Dance/ECD' render={routerProps => <EnglishCountry />} />
+          <Redirect exact from='/Dance/DanceECD.html' to='/Dance/ECD'/>
+          <Route exact path='/Dance/Folk' render={routerProps => <Folk />} />
+          <Redirect exact from='/Dance/DanceFolk.html' to='/Dance/Folk'/>
+          <Route exact path='/Dance/Performance' render={routerProps => <Performance />} />
+          <Redirect exact from='/Dance/DancePerformance.html' to='/Dance/Performance'/>
+          <Route exact path='/Dance/Scottish' render={routerProps => <ScottishCountry />} />
+          <Redirect exact from='/Dance/DanceScottish.html' to='/Dance/Scottish'/>
+          <Route exact path='/Dance/Square' render={routerProps => <Square />} />
+          <Redirect exact from='/Dance/DanceSquare.html' to='/Dance/Square'/>
+          <Route exact path='/Dance/Which' render={routerProps => <Try />} />
+          <Redirect exact from='/Dance/DanceWhich.html' to='/Dance/Which'/>
 
           <Route exact path='/Feldenkrais' render={routerProps => <Feldenkrais />} />
           <Redirect exact from='/Feldenkrais.html' to='/Feldenkrais'/>
@@ -174,7 +173,7 @@ function App() {
           <Route exact path='/Movement' render={routerProps => <MovementQuotes />} />
           <Redirect exact from='/Movement/Movement.html' to='/Movement'/>
           <Route exact path='/Movement/Aikido' render={routerProps => <Aikido />} />
-          <Redirect exact from='/Movement/Aikido.html' to='/Movement/Aidkido'/>
+          <Redirect exact from='/Movement/Aikido.html' to='/Movement/Aikido'/>
           <Route exact path='/Movement/Juggling' render={routerProps => <Juggling />} />
           <Redirect exact from='/Movement/Juggling.html' to='/Movement/Juggling'/>
 
@@ -184,8 +183,6 @@ function App() {
           <Redirect exact from='/Music/MusicPhotos.html' to='/Music/Photos'/>
           <Route exact path='/Music/PressBio' render={routerProps => <PressBio />} />
           <Redirect exact from='/Music/PressBio.html' to='/Music/PressBio'/>
-          <Route exact path='/Music/Radio' render={routerProps => <Radio />} />
-          <Redirect exact from='/Music/MusicRadio.html' to='/Music/Radio'/>
           <Route exact path='/Music/Life' render={routerProps => <Life />} />
           <Redirect exact from='/Music/LifeMp3Player/MusicLife.html' to='/Music/Life'/>
           <Route exact path='/Music/LifeStory' render={routerProps => <StoryOf />} />
@@ -222,12 +219,12 @@ function App() {
           <Redirect exact from='/Triathlon/TriBike.html' to='/Triathlon/Bike'/>
           <Route exact path='/Triathlon/Cramps' render={routerProps => <TriCramps />} />
           <Redirect exact from='/Triathlon/TriCramps.html' to='/Triathlon/Cramps'/>
-          <Route exact path='/Triathlon/TriGadgets' render={routerProps => <TriGadgets />} />
+          <Route exact path='/Triathlon/Gadgets' render={routerProps => <TriGadgets />} />
           <Redirect exact from='/Triathlon/TriGadgets.html' to='/Triathlon/Gadgets'/>
           <Route exact path='/Triathlon/Gear' render={routerProps => <TriGear />} />
           <Redirect exact from='/Triathlon/TriGear.html' to='/Triathlon/Gear'/>
           <Route exact path='/Triathlon/Knees' render={routerProps => <TriKnees />} />
-          <Redirect exact from='/Triathlon/TriKnees.html' to='/Triathlon/Kness'/>
+          <Redirect exact from='/Triathlon/TriKnees.html' to='/Triathlon/Knees'/>
           <Route exact path='/Triathlon/Learning' render={routerProps => <TriLearning />} />
           <Redirect exact from='/Triathlon/TriLearning.html' to='/Triathlon/Learning'/>
           <Route exact path='/Triathlon/Lengths' render={routerProps => <TriLengths />} />
@@ -235,7 +232,7 @@ function App() {
           <Route exact path='/Triathlon/Nutrition' render={routerProps => <TriNutrition />} />
           <Redirect exact from='/Triathlon/TriNutrition.html' to='/Triathlon/Nutrition'/>
           <Route exact path='/Triathlon/OpenWater' render={routerProps => <TriOpenWater />} />
-          <Redirect exact from='/Triathlon/TriOpenWaterhtml' to='/Triathlon/OpenWater'/>
+          <Redirect exact from='/Triathlon/TriOpenWater.html' to='/Triathlon/OpenWater'/>
           <Route exact path='/Triathlon/PicksPans' render={routerProps => <TriPicksPans />} />
           <Redirect exact from='/Triathlon/TriPicksPans.html' to='/Triathlon/PicksPans'/>
           <Route exact path='/Triathlon/RaceDay' render={routerProps => <TriRaceDay />} />
@@ -273,8 +270,8 @@ function App() {
 
           <Route exact path='/TwoCents' render={routerProps => <TwoCents />} />
           <Redirect exact from='/TwoCents/TwoCents.html' to='/TwoCents'/>
-          <Route exact path='/TwoCents/TwoBathroomLaws' render={routerProps => <BathroomLaws />} />
-          <Redirect exact from='/TwoCents/BathroomLaws.html' to='/TwoCents/BathroomLaws'/>
+          <Route exact path='/TwoCents/BathroomLaws' render={routerProps => <BathroomLaws />} />
+          <Redirect exact from='/TwoCents/TwoBathroomLaws.html' to='/TwoCents/BathroomLaws'/>
           <Route exact path='/TwoCents/Covid19' render={routerProps => <Covid />} />
           <Redirect exact from='/TwoCents/TwoCovid19.html' to='/TwoCents/Covid19'/>
           <Route exact path='/TwoCents/Death' render={routerProps => <DeathWithDignity />} />
@@ -282,7 +279,7 @@ function App() {
           <Route exact path='/TwoCents/Energy' render={routerProps => <Energy />} />
           <Redirect exact from='/TwoCents/TwoEnergy.html' to='/TwoCents/Energy'/>
           <Route exact path='/TwoCents/GayWedding' render={routerProps => <GayWedding />} />
-          <Redirect exact from='/TwoCents/TwoGarWedding.html' to='/TwoCents/GayWedding'/>
+          <Redirect exact from='/TwoCents/TwoGayWedding.html' to='/TwoCents/GayWedding'/>
           <Route exact path='/TwoCents/HealthTips' render={routerProps => <Health />} />
           <Redirect exact from='/TwoCents/TwoHealthTips.html' to='/TwoCents/HealthTips'/>
           <Route exact path='/TwoCents/Marines' render={routerProps => <Marines />} />
@@ -297,10 +294,10 @@ function App() {
           <Redirect exact from='/TwoCents/TwoSmoking.html' to='/TwoCents/Smoking'/>
           <Route exact path='/TwoCents/WindowsVsMac' render={routerProps => <WindowsMac />} />
           <Redirect exact from='/TwoCents/TwoWindowsVsMac.html' to='/TwoCents/WindowsVsMac'/>
-          <Route exact path='/TwoCents/TwoWisdom' render={routerProps => <Wisdom />} />
+          <Route exact path='/TwoCents/Wisdom' render={routerProps => <Wisdom />} />
           <Redirect exact from='/TwoCents/TwoWisdom.html' to='/TwoCents/Wisdom'/>
 
-          <Route exact path='/Shop/Shipping.html' render={routerProps => <Shopping />} />
+          <Route exact path='/Shop/Shipping' render={routerProps => <Shopping />} />
           <Redirect exact from='/Shop/ShopShipping.html' to='/Shop/Shipping'/>
           <Route exact path='/Shop/SciFi' render={routerProps => <ShoppingSciFi />} />
           <Redirect exact from='/Shop/ShopSciFi.html' to='/Shop/SciFi'/>
