@@ -1,7 +1,6 @@
 import React from 'react';
-import { Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
-import history from "./history"
 import "./App.css"
 
 import NavBar from "./components/Navbar";
@@ -112,7 +111,7 @@ import Wisdom from "./components/TwoCents/Wisdom"
 
 function App() {
   return (
-    <Router history={history}>
+    <BrowserRouter>
       <div>
         <NavBar />
         <Switch>
@@ -120,108 +119,198 @@ function App() {
 
           <Route exact path='/admin' render={routerProps => <Admin />} />
 
-          <Route exact path='/Becoming.html' render={routerProps => <Becoming />} />
-          <Route exact path='/BecomingTOC.html' render={routerProps => <BecomingTOC />} />
-          <Route exact path='/BecomingSPages.html' render={routerProps => <SamplePages />} />
-          <Route exact path='/BecomingQuotes.html' render={routerProps => <Quotes />} />
-          <Route exact path='/BecomingHowToOrder.html' render={routerProps => <HowToOrder />} />
+          <Route exact path='/Becoming' render={routerProps => <Becoming />} />
+          <Redirect exact from='/Becoming.html' to='/Becoming'/>
+          <Route exact path='/BecomingTOC' render={routerProps => <BecomingTOC />} />
+          <Redirect exact from='/BecomingTOC.html' to='/BecomingTOC'/>
+          <Route exact path='/BecomingSPages' render={routerProps => <SamplePages />} />
+          <Redirect exact from='/Becoming5Parges.html' to='/Becoming5Pages'/>
+          <Route exact path='/BecomingQuotes' render={routerProps => <Quotes />} />
+          <Redirect exact from='/BecomingQuotes.html' to='/BecomingQuotes'/>
+          <Route exact path='/BecomingHowToOrder' render={routerProps => <HowToOrder />} />
+          <Redirect exact from='/BecomingHowToOrder.html' to='/BecomingHowToOrder'/>
 
-          <Route exact path='/Touch/TouchMailList.html' render={routerProps => <JoinMailList />} />
-          <Route exact path='/Touch/TouchContact.html' render={routerProps => <ContactBruce />} />
+          <Route exact path='/MailList' render={routerProps => <JoinMailList />} />
+          <Redirect exact from='/Touch/TouchMailList.html' to='/MailList'/>
+          <Route exact path='/Contact' render={routerProps => <ContactBruce />} />
+          <Redirect exact from='/Touch/TouchContact.html' to='/Contact'/>
 
-          <Route exact path='/Dance/DanceSocial.html' render={routerProps => <SocialDance />} />
-          <Route exact path='/Dance/DanceBallroom.html' render={routerProps => <Ballroom />} />
-          <Route exact path='/Dance/DanceBarn.html' render={routerProps => <Barn />} />
-          <Route exact path='/Dance/DanceECD.html' render={routerProps => <EnglishCountry />} />
-          <Route exact path='/Dance/DanceFolk.html' render={routerProps => <Folk />} />
-          <Route exact path='/Dance/DancePerformance.html' render={routerProps => <Performance />} />
-          <Route exact path='/Dance/DanceScottish.html' render={routerProps => <ScottishCountry />} />
-          <Route exact path='/Dance/DanceSquare.html' render={routerProps => <Square />} />
-          <Route exact path='/Dance/DanceWhich.html' render={routerProps => <Try />} />
+          <Route exact path='/Dance/DanceSocial' render={routerProps => <SocialDance />} />
+          <Redirect exact from='/Dance/DanceSocial.html' to='/Dance/DanceSocial'/>
+          <Route exact path='/Dance/DanceBallroom' render={routerProps => <Ballroom />} />
+          <Redirect exact from='/Dance/DanceBallroom.html' to='/Dance/DanceBallroom'/>
+          <Route exact path='/Dance/DanceBarn' render={routerProps => <Barn />} />
+          <Redirect exact from='/Dance/DanceBarn.html' to='/Dance/DanceBarn'/>
+          <Route exact path='/Dance/DanceECD' render={routerProps => <EnglishCountry />} />
+          <Redirect exact from='/Dance/DanceECD.html' to='/Dance/DanceECD'/>
+          <Route exact path='/Dance/DanceFolk' render={routerProps => <Folk />} />
+          <Redirect exact from='/Dance/DanceFolk.html' to='/Dance/DanceFolk'/>
+          <Route exact path='/Dance/DancePerformance' render={routerProps => <Performance />} />
+          <Redirect exact from='/Dance/DancePerformance.html' to='/Dance/DancePerformance'/>
+          <Route exact path='/Dance/DanceScottish' render={routerProps => <ScottishCountry />} />
+          <Redirect exact from='/Dance/DanceScottish.html' to='/Dance/DanceScottish'/>
+          <Route exact path='/Dance/DanceSquare' render={routerProps => <Square />} />
+          <Redirect exact from='/Dance/DanceSquare.html' to='/Dance/DanceSquare'/>
+          <Route exact path='/Dance/DanceWhich' render={routerProps => <Try />} />
+          <Redirect exact from='/Dance/DanceWhich.html' to='/Dance/DanceWhich'/>
 
-          <Route exact path='/Feldenkrais.html' render={routerProps => <Feldenkrais />} />
-          <Route exact path='/Feldenkrais/FeldenkraisHistory.html' render={routerProps => <History />} />
-          <Route exact path='/Feldenkrais/FeldenkraisLessonList.html' render={routerProps => <Lessons />} />
-          <Route exact path='/Feldenkrais/FeldenkraisCDPressQuotes.html' render={routerProps => <PressQuotes />} />
-          <Route exact path='/Feldenkrais/FeldenkraisCDUserQuotes.html' render={routerProps => <UserQuotes />} />
-          <Route exact path='/Feldenkrais/FeldenkraisPrice.html' render={routerProps => <PricePurchase />} />
-          <Route exact path='/Feldenkrais/FeldenkraisFreeLesson.html' render={routerProps => <FreeLesson />} />
-          <Route exact path='/Feldenkrais/MosheFeldenkrais.html' render={routerProps => <Article />} />
+          <Route exact path='/Feldenkrais' render={routerProps => <Feldenkrais />} />
+          <Redirect exact from='/Feldenkrais.html' to='/Feldenkrais'/>
+          <Route exact path='/Feldenkrais/History' render={routerProps => <History />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisHistory.html' to='/Feldenkrais/History'/>
+          <Route exact path='/Feldenkrais/LessonList' render={routerProps => <Lessons />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisLessonList.html' to='/Feldenkrais/LessonList'/>
+          <Route exact path='/Feldenkrais/CDPressQuotes' render={routerProps => <PressQuotes />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisCDPressQuotes.html' to='/Feldenkrais/CDPressQuotes'/>
+          <Route exact path='/Feldenkrais/CDUserQuotes' render={routerProps => <UserQuotes />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisCDUserQuotes.html' to='/Feldenkrais/CDUserQuotes'/>
+          <Route exact path='/Feldenkrais/Price' render={routerProps => <PricePurchase />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisPrice.html' to='/Feldenkrais/Price'/>
+          <Route exact path='/Feldenkrais/FreeLesson' render={routerProps => <FreeLesson />} />
+          <Redirect exact from='/Feldenkrais/FeldenkraisFreeLesson.html' to='/Feldenkrais/FreeLesson'/>
+          <Route exact path='/Feldenkrais/MosheFeldenkrais' render={routerProps => <Article />} />
+          <Redirect exact from='/Feldenkrais/MosheFeldenkrais.html' to='/Feldenkrais/MosheFeldenkrais'/>
 
-          <Route exact path='/Movement/Movement.html' render={routerProps => <MovementQuotes />} />
-          <Route exact path='/Movement/Aikido.html' render={routerProps => <Aikido />} />
-          <Route exact path='/Movement/Juggling.html' render={routerProps => <Juggling />} />
+          <Route exact path='/Movement' render={routerProps => <MovementQuotes />} />
+          <Redirect exact from='/Movement/Movement.html' to='/Movement'/>
+          <Route exact path='/Movement/Aikido' render={routerProps => <Aikido />} />
+          <Redirect exact from='/Movement/Aikido.html' to='/Movement/Aidkido'/>
+          <Route exact path='/Movement/Juggling' render={routerProps => <Juggling />} />
+          <Redirect exact from='/Movement/Juggling.html' to='/Movement/Juggling'/>
 
-          <Route exact path='/Music/Music.html' render={routerProps => <Music />} />
-          <Route exact path='/Music/MusicPhotos.html' render={routerProps => <MusicPhoto />} />
-          <Route exact path='/Music/PressBio.html' render={routerProps => <PressBio />} />
-          <Route exact path='/Music/MusicRadio.html' render={routerProps => <Radio />} />
-          <Route exact path='/Music/LifeMp3Player/MusicLife.html' render={routerProps => <Life />} />
-          <Route exact path='/Music/MusicLifeStory.html' render={routerProps => <StoryOf />} />
-          <Route exact path='/Music/MusicConcert2005.html' render={routerProps => <ConcertPhotos />} />
-          <Route exact path='/Music/ReviewWesternSprings.html' render={routerProps => <WesternSprings />} />
-          <Route exact path='/Music/ReviewEvanston.html' render={routerProps => <EvanstonReview />} />
-          <Route exact path='/Music/OKRMp3Player/MusicOKR.html' render={routerProps => <Old />} />
-          <Route exact path='/Music/ReviewChiTribune.html' render={routerProps => <ChicagoTribune />} />
-          <Route exact path='/Music/ReviewRickLibrarian.html' render={routerProps => <RickLibrarian />} />
+          <Route exact path='/Music' render={routerProps => <Music />} />
+          <Redirect exact from='/Music/Music.html' to='/Music'/>
+          <Route exact path='/Music/Photos' render={routerProps => <MusicPhoto />} />
+          <Redirect exact from='/Music/MusicPhotos.html' to='/Music/Photos'/>
+          <Route exact path='/Music/PressBio' render={routerProps => <PressBio />} />
+          <Redirect exact from='/Music/PressBio.html' to='/Music/PressBio'/>
+          <Route exact path='/Music/Radio' render={routerProps => <Radio />} />
+          <Redirect exact from='/Music/MusicRadio.html' to='/Music/Radio'/>
+          <Route exact path='/Music/Life' render={routerProps => <Life />} />
+          <Redirect exact from='/Music/LifeMp3Player/MusicLife.html' to='/Music/Life'/>
+          <Route exact path='/Music/LifeStory' render={routerProps => <StoryOf />} />
+          <Redirect exact from='/Music/MusicLifeStory.html' to='/Music/LifeStory'/>
+          <Route exact path='/Music/Concert2005' render={routerProps => <ConcertPhotos />} />
+          <Redirect exact from='/Music/MusicConcert2005.html' to='/Music/Concert2005'/>
+          <Route exact path='/Music/ReviewWesternSprings' render={routerProps => <WesternSprings />} />
+          <Redirect exact from='/Music/ReviewWesternSprings.html' to='/Music/ReviewWesternSprings'/>
+          <Route exact path='/Music/ReviewEvanston' render={routerProps => <EvanstonReview />} />
+          <Redirect exact from='/Music/ReviewEvanston.html' to='/Music/ReviewEvanston'/>
+          <Route exact path='/Music/OKR' render={routerProps => <Old />} />
+          <Redirect exact from='/Music/OKRMp3Player/MusicOKR.html' to='/Music/OKR'/>
+          <Route exact path='/Music/ReviewChiTribune' render={routerProps => <ChicagoTribune />} />
+          <Redirect exact from='/Music/ReviewChiTribune.html' to='/Music/ReviewChiTribune'/>
+          <Route exact path='/Music/ReviewRickLibrarian' render={routerProps => <RickLibrarian />} />
+          <Redirect exact from='/Music/ReviewRickLibrarian.html' to='/Music/ReviewRickLibrarian'/>
 
-          <Route exact path='/SciFi/Anvil.html' render={routerProps => <AnvilHome />} />
-          <Route exact path='/SciFi/AnvilQuotes.html' render={routerProps => <AuthorQuotes />} />
-          <Route exact path='/SciFi/AnvilFanQuotes.html' render={routerProps => <FanQuotes />} />
-          <Route exact path='/SciFi/AnvilChap1.html' render={routerProps => <FirstChapter />} />
-          <Route exact path='/SciFi/Switch.html' render={routerProps => <SwitchTime />} />
+          <Route exact path='/SciFi/Anvil' render={routerProps => <AnvilHome />} />
+          <Redirect exact from='/SciFi/Anvil.html' to='/SciFi/Anvil'/>
+          <Route exact path='/SciFi/AnvilQuotes' render={routerProps => <AuthorQuotes />} />
+          <Redirect exact from='/SciFi/AnvilQuotes.html' to='/SciFi/AnvilQuotes'/>
+          <Route exact path='/SciFi/AnvilFanQuotes' render={routerProps => <FanQuotes />} />
+          <Redirect exact from='/SciFi/AnvilFanQuotes.html' to='/SciFi/AnvilFanQuotes'/>
+          <Route exact path='/SciFi/AnvilChap1' render={routerProps => <FirstChapter />} />
+          <Redirect exact from='/SciFi/AnvilChap1.html' to='/SciFi/AnvilChap1'/>
+          <Route exact path='/SciFi/Switch' render={routerProps => <SwitchTime />} />
+          <Redirect exact from='/SciFi/Switch.html' to='/SciFi/Switch'/>
 
-          <Route exact path='/Triathlon/Marathon/MarathonSong.html' render={routerProps => <MarathonSong />} />
-          <Route exact path='/Triathlon/TriAthleteNutrition.html' render={routerProps => <TriAthleteNutrition />} />
-          <Route exact path='/Triathlon/TriBike.html' render={routerProps => <TriBike />} />
-          <Route exact path='/Triathlon/TriCramps.html' render={routerProps => <TriCramps />} />
-          <Route exact path='/Triathlon/TriGadgets.html' render={routerProps => <TriGadgets />} />
-          <Route exact path='/Triathlon/TriGear.html' render={routerProps => <TriGear />} />
-          <Route exact path='/Triathlon/TriKnees.html' render={routerProps => <TriKnees />} />
-          <Route exact path='/Triathlon/TriLearning.html' render={routerProps => <TriLearning />} />
-          <Route exact path='/Triathlon/TriLengths.html' render={routerProps => <TriLengths />} />
-          <Route exact path='/Triathlon/TriNutrition.html' render={routerProps => <TriNutrition />} />
-          <Route exact path='/Triathlon/TriOpenWater.html' render={routerProps => <TriOpenWater />} />
-          <Route exact path='/Triathlon/TriPicksPans.html' render={routerProps => <TriPicksPans />} />
-          <Route exact path='/Triathlon/TriRaceDay.html' render={routerProps => <TriRaceDay />} />
-          <Route exact path='/Triathlon/TriRaceNutrition.html' render={routerProps => <TriRaceNutrition />} />
-          <Route exact path='/Triathlon/TriRules.html' render={routerProps => <TriRules />} />
-          <Route exact path='/Triathlon/TriRun.html' render={routerProps => <TriRun />} />
-          <Route exact path='/Triathlon/TriShoes.html' render={routerProps => <TriShoes />} />
-          <Route exact path='/Triathlon/TriStrength.html' render={routerProps => <TriStrength />} />
-          <Route exact path='/Triathlon/TriStretching.html' render={routerProps => <TriStretching />} />
-          <Route exact path='/Triathlon/TriSuits.html' render={routerProps => <TriSuits />} />
-          <Route exact path='/Triathlon/TriSwim.html' render={routerProps => <TriSwim />} />
-          <Route exact path='/Triathlon/TriTraining.html' render={routerProps => <TriTraining />} />
-          <Route exact path='/Triathlon/TriWarmup.html' render={routerProps => <TriWarmup />} />
-          <Route exact path='/Triathlon/TriWarning.html' render={routerProps => <TriWarning />} />
-          <Route exact path='/Triathlon/TriWeightLoss.html' render={routerProps => <TriWeightLoss />} />
-          <Route exact path='/Triathlon/TriWet.html' render={routerProps => <TriWetsuits />} />
-          <Route exact path='/Triathlon/TriWhy.html' render={routerProps => <TriWhy />} />
-          <Route exact path='/Triathlon/TriYou.html' render={routerProps => <TriYou />} />
+          <Route exact path='/Triathlon/MarathonSong' render={routerProps => <MarathonSong />} />
+          <Redirect exact from='/Triathlon/Marathon/MarathonSong.html' to='/Triathlon/MarathonSong'/>
+          <Route exact path='/Triathlon/AthleteNutrition' render={routerProps => <TriAthleteNutrition />} />
+          <Redirect exact from='/Triathlon/TriAthleteNutrition.html' to='/Triathlon/AthleteNutrition'/>
+          <Route exact path='/Triathlon/Bike' render={routerProps => <TriBike />} />
+          <Redirect exact from='/Triathlon/TriBike.html' to='/Triathlon/Bike'/>
+          <Route exact path='/Triathlon/Cramps' render={routerProps => <TriCramps />} />
+          <Redirect exact from='/Triathlon/TriCramps.html' to='/Triathlon/Cramps'/>
+          <Route exact path='/Triathlon/TriGadgets' render={routerProps => <TriGadgets />} />
+          <Redirect exact from='/Triathlon/TriGadgets.html' to='/Triathlon/Gadgets'/>
+          <Route exact path='/Triathlon/Gear' render={routerProps => <TriGear />} />
+          <Redirect exact from='/Triathlon/TriGear.html' to='/Triathlon/Gear'/>
+          <Route exact path='/Triathlon/Knees' render={routerProps => <TriKnees />} />
+          <Redirect exact from='/Triathlon/TriKnees.html' to='/Triathlon/Kness'/>
+          <Route exact path='/Triathlon/Learning' render={routerProps => <TriLearning />} />
+          <Redirect exact from='/Triathlon/TriLearning.html' to='/Triathlon/Learning'/>
+          <Route exact path='/Triathlon/Lengths' render={routerProps => <TriLengths />} />
+          <Redirect exact from='/Triathlon/TriLengths.html' to='/Triathlon/Lengths'/>
+          <Route exact path='/Triathlon/Nutrition' render={routerProps => <TriNutrition />} />
+          <Redirect exact from='/Triathlon/TriNutrition.html' to='/Triathlon/Nutrition'/>
+          <Route exact path='/Triathlon/OpenWater' render={routerProps => <TriOpenWater />} />
+          <Redirect exact from='/Triathlon/TriOpenWaterhtml' to='/Triathlon/OpenWater'/>
+          <Route exact path='/Triathlon/PicksPans' render={routerProps => <TriPicksPans />} />
+          <Redirect exact from='/Triathlon/TriPicksPans.html' to='/Triathlon/PicksPans'/>
+          <Route exact path='/Triathlon/RaceDay' render={routerProps => <TriRaceDay />} />
+          <Redirect exact from='/Triathlon/TriRaceDay.html' to='/Triathlon/RaceDay'/>
+          <Route exact path='/Triathlon/RaceNutrition' render={routerProps => <TriRaceNutrition />} />
+          <Redirect exact from='/Triathlon/TriRaceNutrition.html' to='/Triathlon/RaceNutrition'/>
+          <Route exact path='/Triathlon/Rules' render={routerProps => <TriRules />} />
+          <Redirect exact from='/Triathlon/TriRules.html' to='/Triathlon/Rules'/>
+          <Route exact path='/Triathlon/Run' render={routerProps => <TriRun />} />
+          <Redirect exact from='/Triathlon/TriRun.html' to='/Triathlon/Run'/>
+          <Route exact path='/Triathlon/Shoes' render={routerProps => <TriShoes />} />
+          <Redirect exact from='/Triathlon/TriShoes.html' to='/Triathlon/Shoes'/>
+          <Route exact path='/Triathlon/Strength' render={routerProps => <TriStrength />} />
+          <Redirect exact from='/Triathlon/TriStrength.html' to='/Triathlon/Strength'/>
+          <Route exact path='/Triathlon/Stretching' render={routerProps => <TriStretching />} />
+          <Redirect exact from='/Triathlon/TriStretching.html' to='/Triathlon/Stretching'/>
+          <Route exact path='/Triathlon/Suits' render={routerProps => <TriSuits />} />
+          <Redirect exact from='/Triathlon/TriSuits.html' to='/Triathlon/Suits'/>
+          <Route exact path='/Triathlon/Swim' render={routerProps => <TriSwim />} />
+          <Redirect exact from='/Triathlon/TriSwim.html' to='/Triathlon/Swim'/>
+          <Route exact path='/Triathlon/Training' render={routerProps => <TriTraining />} />
+          <Redirect exact from='/Triathlon/TriTraining.html' to='/Triathlon/Training'/>
+          <Route exact path='/Triathlon/Warmup' render={routerProps => <TriWarmup />} />
+          <Redirect exact from='/Triathlon/TriWarmup.html' to='/Triathlon/Warmup'/>
+          <Route exact path='/Triathlon/Warning' render={routerProps => <TriWarning />} />
+          <Redirect exact from='/Triathlon/TriWarning.html' to='/Triathlon/Warning'/>
+          <Route exact path='/Triathlon/WeightLoss' render={routerProps => <TriWeightLoss />} />
+          <Redirect exact from='/Triathlon/TriWEightLoss.html' to='/Triathlon/WeightLoss'/>
+          <Route exact path='/Triathlon/Wet' render={routerProps => <TriWetsuits />} />
+          <Redirect exact from='/Triathlon/TriWet.html' to='/Triathlon/Wet'/>
+          <Route exact path='/Triathlon/Why' render={routerProps => <TriWhy />} />
+          <Redirect exact from='/Triathlon/TriWhy.html' to='/Triathlon/Why'/>
+          <Route exact path='/Triathlon/You' render={routerProps => <TriYou />} />
+          <Redirect exact from='/Triathlon/TriYou.html' to='/Triathlon/You'/>
 
-          <Route exact path='/TwoCents/TwoCents.html' render={routerProps => <TwoCents />} />
-          <Route exact path='/TwoCents/TwoBathroomLaws.html' render={routerProps => <BathroomLaws />} />
-          <Route exact path='/TwoCents/TwoCovid19.html' render={routerProps => <Covid />} />
-          <Route exact path='/TwoCents/TwoDeath.html' render={routerProps => <DeathWithDignity />} />
-          <Route exact path='/TwoCents/TwoEnergy.html' render={routerProps => <Energy />} />
-          <Route exact path='/TwoCents/TwoGayWedding.html' render={routerProps => <GayWedding />} />
-          <Route exact path='/TwoCents/TwoHealthTips.html' render={routerProps => <Health />} />
-          <Route exact path='/TwoCents/TwoMarines.html' render={routerProps => <Marines />} />
-          <Route exact path='/TwoCents/TwoPrius.html' render={routerProps => <Prius />} />
-          <Route exact path='/TwoCents/TwoProstitution.html' render={routerProps => <Prostitution />} />
-          <Route exact path='/TwoCents/TwoRomney.html' render={routerProps => <Romney />} />
-          <Route exact path='/TwoCents/TwoSmoking.html' render={routerProps => <Smoking />} />
-          <Route exact path='/TwoCents/TwoWindowsVsMac.html' render={routerProps => <WindowsMac />} />
-          <Route exact path='/TwoCents/TwoWisdom.html' render={routerProps => <Wisdom />} />
+          <Route exact path='/TwoCents' render={routerProps => <TwoCents />} />
+          <Redirect exact from='/TwoCents/TwoCents.html' to='/TwoCents'/>
+          <Route exact path='/TwoCents/TwoBathroomLaws' render={routerProps => <BathroomLaws />} />
+          <Redirect exact from='/TwoCents/BathroomLaws.html' to='/TwoCents/BathroomLaws'/>
+          <Route exact path='/TwoCents/Covid19' render={routerProps => <Covid />} />
+          <Redirect exact from='/TwoCents/TwoCovid19.html' to='/TwoCents/Covid19'/>
+          <Route exact path='/TwoCents/Death' render={routerProps => <DeathWithDignity />} />
+          <Redirect exact from='/TwoCents/TwoDeath.html' to='/TwoCents/Death'/>
+          <Route exact path='/TwoCents/Energy' render={routerProps => <Energy />} />
+          <Redirect exact from='/TwoCents/TwoEnergy.html' to='/TwoCents/Energy'/>
+          <Route exact path='/TwoCents/GayWedding' render={routerProps => <GayWedding />} />
+          <Redirect exact from='/TwoCents/TwoGarWedding.html' to='/TwoCents/GayWedding'/>
+          <Route exact path='/TwoCents/HealthTips' render={routerProps => <Health />} />
+          <Redirect exact from='/TwoCents/TwoHealthTips.html' to='/TwoCents/HealthTips'/>
+          <Route exact path='/TwoCents/Marines' render={routerProps => <Marines />} />
+          <Redirect exact from='/TwoCents/TwoMarines.html' to='/TwoCents/Marines'/>
+          <Route exact path='/TwoCents/Prius' render={routerProps => <Prius />} />
+          <Redirect exact from='/TwoCents/TwoPrius.html' to='/TwoCents/Prius'/>
+          <Route exact path='/TwoCents/Prostitution' render={routerProps => <Prostitution />} />
+          <Redirect exact from='/TwoCents/TwoProstitution.html' to='/TwoCents/Prostitution'/>
+          <Route exact path='/TwoCents/Romney' render={routerProps => <Romney />} />
+          <Redirect exact from='/TwoCents/TwoRomney.html' to='/TwoCents/Romney'/>
+          <Route exact path='/TwoCents/Smoking' render={routerProps => <Smoking />} />
+          <Redirect exact from='/TwoCents/TwoSmoking.html' to='/TwoCents/Smoking'/>
+          <Route exact path='/TwoCents/WindowsVsMac' render={routerProps => <WindowsMac />} />
+          <Redirect exact from='/TwoCents/TwoWindowsVsMac.html' to='/TwoCents/WindowsVsMac'/>
+          <Route exact path='/TwoCents/TwoWisdom' render={routerProps => <Wisdom />} />
+          <Redirect exact from='/TwoCents/TwoWisdom.html' to='/TwoCents/Wisdom'/>
 
-          <Route exact path='/Shop/ShopShipping.html' render={routerProps => <Shopping />} />
-          <Route exact path='/Shop/ShopSciFi.html' render={routerProps => <ShoppingSciFi />} />
-          <Route exact path='/Shop/ShopMusic.html' render={routerProps => <ShoppingMusic />} />
-          <Route exact path='/Shop/ShopTShirts.html' render={routerProps => <ShoppingTShirts />} />
+          <Route exact path='/Shop/Shipping.html' render={routerProps => <Shopping />} />
+          <Redirect exact from='/Shop/ShopShipping.html' to='/Shop/Shipping'/>
+          <Route exact path='/Shop/SciFi' render={routerProps => <ShoppingSciFi />} />
+          <Redirect exact from='/Shop/ShopSciFi.html' to='/Shop/SciFi'/>
+          <Route exact path='/Shop/Music' render={routerProps => <ShoppingMusic />} />
+          <Redirect exact from='/Shop/ShopMusic.html' to='/Shop/Music'/>
+          <Route exact path='/Shop/TShirts' render={routerProps => <ShoppingTShirts />} />
+          <Redirect exact from='/Shop/ShopTShirts.html' to='/Shop/TShirts'/>
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
