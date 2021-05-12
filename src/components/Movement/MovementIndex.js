@@ -9,17 +9,17 @@ export default function MovementIndex() {
                 <Container>
                     <h2>Movement</h2>
                     <br></br>
-                    <a href='/Feldenkrais.html'>Felenkrais</a>
+                    <a href='/Feldenkrais'>Felenkrais</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceSocial.html'>Dance</a>
+                    <a href='/Dance/Social'>Dance</a>
                     <br></br><br></br>
-                    <a href='/Triathlon/TriYou.html'>Triathlon</a>
+                    <a href='/Triathlon/You'>Triathlon</a>
                     <br></br><br></br>
-                    <a href='/Movement/Aikido.html'>Aikido</a>
+                    <a href='/Movement/Aikido'>Aikido</a>
                     <br></br><br></br>
-                    <a href='/Movement/Juggling.html'>Juggling</a>
+                    <a href='/Movement/Juggling'>Juggling</a>
                     <br></br><br></br>
-                    <a href='/Movement/Movement.html'>Movement Quotes</a>
+                    <a href='/Movement'>Movement Quotes</a>
                     <br></br>
                 </Container>
             </Card>

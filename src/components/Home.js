@@ -8,56 +8,56 @@ export default function Home() {
             <Jumbotron id='jumbotron'>
                 <div id='card-container'>
                     <Row className="justify-content-end">
-                        <a href='/feldenkrais.html'>
+                        <a href='/Feldenkrais'>
                             <Card>
                                 <Card.Img src="MenuFeldenkrais.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/becoming.html'>
+                        <a href='/Becoming'>
                             <Card >
                                 <Card.Img src="MenuBecoming.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/SciFi/Anvil.html'>
+                        <a href='/SciFi/Anvil'>
                             <Card>
                                 <Card.Img src="MenuSciFi.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/Music/Music.html'>
+                        <a href='/Music'>
                             <Card>
                                 <Card.Img src="MenuMusic.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/Touch/TouchMailList.html'>
+                        <a href='/MailList'>
                             <Card>
                                 <Card.Img src="MenuTouch.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/Triathlon/TriYou.html'>
+                        <a href='/Triathlon/You'>
                             <Card>
                                 <Card.Img src="MenuTri.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/TwoCents/TwoCents.html'>
+                        <a href='/TwoCents'>
                             <Card>
                                 <Card.Img src="MenuTwoCents.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/Dance/DanceSocial.html'>
+                        <a href='/Dance/Social'>
                             <Card>
                                 <Card.Img src="MenuDance.jpg" alt="Card Image" />
                             </Card>

@@ -7,25 +7,25 @@ export default function DanceIndex() {
         <Col sm={3} >
             <Card border='dark'>
                 <Container>
-                    <a href='/Dance/DanceSocial.html'><h2>Social Dance</h2></a>
+                    <a href='/Dance/Social'><h2>Social Dance</h2></a>
                     <br></br>
-                    <a href='/Dance/DanceECD.html'>English Country Dancing</a>
+                    <a href='/Dance/ECD'>English Country Dancing</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceFolk.html'>Folk Dancing</a>
+                    <a href='/Dance/Folk'>Folk Dancing</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceScottish.html'>Scottish Country Dance</a>
+                    <a href='/Dance/Scottish'>Scottish Country Dance</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceBarn.html'>Barn Dancing</a>
+                    <a href='/Dance/Barn'>Barn Dancing</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceSquare.html'>Square Dancing</a>
+                    <a href='/Dance/Square'>Square Dancing</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceBallroom.html'>Ballroom Dancing</a>
+                    <a href='/Dance/Ballroom'>Ballroom Dancing</a>
                     <br></br><br></br>
-                    <a href='/Dance/DancePerformance.html'>Performance Dance</a>
+                    <a href='/Dance/Performance'>Performance Dance</a>
                     <br></br><br></br>
-                    <a href='/Dance/DanceWhich.html'>Which To Try</a>
+                    <a href='/Dance/Which'>Which To Try</a>
                     <br></br><br></br>
-                    <a href='/Becoming.html'>Becoming a Square Dance Caller</a>
+                    <a href='/Becoming'>Becoming a Square Dance Caller</a>
                     <br></br><br></br>
                 </Container>
             </Card>

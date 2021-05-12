@@ -122,8 +122,8 @@ function App() {
           <Redirect exact from='/Becoming.html' to='/Becoming'/>
           <Route exact path='/BecomingTOC' render={routerProps => <BecomingTOC />} />
           <Redirect exact from='/BecomingTOC.html' to='/BecomingTOC'/>
-          <Route exact path='/Becoming5Pages' render={routerProps => <SamplePages />} />
-          <Redirect exact from='/BecomingSPages.html' to='/Becoming5Pages'/>
+          <Route exact path='/BecomingSPages' render={routerProps => <SamplePages />} />
+          <Redirect exact from='/BecomingSPages.html' to='/BecomingSPages'/>
           <Route exact path='/BecomingQuotes' render={routerProps => <Quotes />} />
           <Redirect exact from='/BecomingQuotes.html' to='/BecomingQuotes'/>
           <Route exact path='/BecomingHowToOrder' render={routerProps => <HowToOrder />} />

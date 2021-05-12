@@ -9,31 +9,31 @@ export default function MovementIndex() {
                 <Container>
                     <h2>Two Cents</h2>
                     <br></br>
-                    <a href='/TwoCents/TwoDeath.html'>Death With Dignity</a>
+                    <a href='/TwoCents/Death'>Death With Dignity</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoCovid19.html'>Life in the Age of COVID19</a>
+                    <a href='/TwoCents/Covid19'>Life in the Age of COVID19</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoMarines.html'>The Marines</a>
+                    <a href='/TwoCents/Marines'>The Marines</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoProstitution.html'>Prostitution's Covergirl</a>
+                    <a href='/TwoCents/Prostitution'>Prostitution's Covergirl</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoGayWedding.html'>A Gay Wedding</a>
+                    <a href='/TwoCents/GayWedding'>A Gay Wedding</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoBathroomLaws.html'>Bathroom Laws</a>
+                    <a href='/TwoCents/BathroomLaws'>Bathroom Laws</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoWindowsVsMac.html'>Windows vs Mac</a>
+                    <a href='/TwoCents/WindowsVsMac'>Windows vs Mac</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoEnergy.html'>Is Energy Real?</a>
+                    <a href='/TwoCents/Energy'>Is Energy Real?</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoRomney.html'>Mitt Romney's Profile in Courage</a>
+                    <a href='/TwoCents/Romney'>Mitt Romney's Profile in Courage</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoHealthTips.html'>Health Tips</a>
+                    <a href='/TwoCents/HealthTips'>Health Tips</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoPrius.html'>My Prius</a>
+                    <a href='/TwoCents/Prius'>My Prius</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoWisdom.html'>Widsom: Hax, Pitts, Strayed & Sivers</a>
+                    <a href='/TwoCents/Wisdom'>Widsom: Hax, Pitts, Strayed & Sivers</a>
                     <br></br><br></br>
-                    <a href='/TwoCents/TwoSmoking.html'>Smoking</a>
+                    <a href='/TwoCents/Smoking'>Smoking</a>
                     <br></br><br></br>
                 </Container>
             </Card>
