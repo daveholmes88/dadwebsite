@@ -10,15 +10,15 @@ export default function BecomingIndex() {
                     <br></br>
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
                     <br></br><br></br>
-                    <a href='/Shop/ShopShipping.html'><h2>Shopping</h2></a>
+                    <a href='/Shop/Shipping'><h2>Shopping</h2></a>
                     <br></br>
-                    <a href='/Shop/ShopMusic.html'>Music</a>
+                    <a href='/Shop/Music'>Music</a>
                     <br></br><br></br>
-                    <a href='/Shop/ShopTShirts.html'>T-Shirts</a>
+                    <a href='/Shop/TShirts'>T-Shirts</a>
                     <br></br><br></br>
-                    <a href='/Shop/ShopSciFi.html'>Science Fiction</a>
+                    <a href='/Shop/SciFi'>Science Fiction</a>
                     <br></br><br></br>
-                    <a href='/Shop/ShopShipping.html'>S&H Directions</a>
+                    <a href='/Shop/Shipping'>S&H Directions</a>
                     <br></br><br></br>
                 </Container>
             </Card>

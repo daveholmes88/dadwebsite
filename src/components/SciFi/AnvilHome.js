@@ -29,7 +29,6 @@ export default function SciFi() {
                                         <input type="hidden" name="cmd" value="_s-xclick" />
                                         <input type="hidden" name="hosted_button_id" value="9310939" />
                                         <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                        <img alt="Add to shopping cart button" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                                     </form>
                                 </div>
                                 <p class='image-text'>

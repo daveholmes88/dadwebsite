@@ -14,21 +14,21 @@ export default function FeldenkraisIndex() {
                 <Container>
                     <Card.Title><h3>The Feldenkrais Method</h3></Card.Title>
                     <br></br>
-                    <a href='/Feldenkrais.html'>The Method Explained</a>
+                    <a href='/Feldenkrais'>The Method Explained</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisHistory.html'>History of the Lessons</a>
+                    <a href='/Feldenkrais/History'>History of the Lessons</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisLessonList.html'>A List of the Lessons</a>
+                    <a href='/Feldenkrais/LessonList'>A List of the Lessons</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisCDPressQuotes.html'>Press Quotes</a>
+                    <a href='/Feldenkrais/CDPressQuotes'>Press Quotes</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisCDUserQuotes.html'>User Quotes</a>
+                    <a href='/Feldenkrais/CDUserQuotes'>User Quotes</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisPrice.html'>Price & Purchase</a>
+                    <a href='/Feldenkrais/Price'>Price & Purchase</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/FeldenkraisFreeLesson.html'>Listen to a Free Lesson</a>
+                    <a href='/Feldenkrais/FreeLesson'>Listen to a Free Lesson</a>
                     <br></br><br></br>
-                    <a href='/Feldenkrais/MosheFeldenkrais.html'>Moshe’s Healing Touch from Runner's World</a>
+                    <a href='/Feldenkrais/MosheFeldenkrais'>Moshe’s Healing Touch from Runner's World</a>
                     <br></br><br></br>
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
 

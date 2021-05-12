@@ -14,15 +14,15 @@ export default function BecomingIndex() {
                         fluid='true'
                     />
                     <br></br>
-                    <a href='/Becoming.html'>Becoming A Caller</a>
+                    <a href='/Becoming'>Becoming A Caller</a>
                     <br></br><br></br>
-                    <a href='/BecomingTOC.html'>Table of Contents</a>
+                    <a href='/BecomingTOC'>Table of Contents</a>
                     <br></br><br></br>
-                    <a href='/BecomingSPages.html'>Sample Pages</a>
+                    <a href='/BecomingSPages'>Sample Pages</a>
                     <br></br><br></br>
-                    <a href='/BecomingQuotes.html'>Quotes</a>
+                    <a href='/BecomingQuotes'>Quotes</a>
                     <br></br><br></br>
-                    <a href='/BecomingHowToOrder.html'>Buy Now</a>
+                    <a href='/BecomingHowToOrder'>Buy Now</a>
                     <br></br><br></br>
                 </Container>
             </Card>
