@@ -60,6 +60,7 @@ import TriWhy from "./components/Triathlon/TriWhy";
 import TriYou from "./components/Triathlon/TriYou";
 
 import Feldenkrais from "./components/Feldenkrais/Home"
+import Download from "./components/Feldenkrais/Download"
 import History from "./components/Feldenkrais/History"
 import Lessons from "./components/Feldenkrais/Lessons"
 import PressQuotes from "./components/Feldenkrais/PressQuotes"
@@ -155,6 +156,7 @@ function App() {
 
           <Route exact path='/Feldenkrais' render={routerProps => <Feldenkrais />} />
           <Redirect exact from='/Feldenkrais.html' to='/Feldenkrais'/>
+          <Route exact path='/Feldenkrais/Download.html' render={routerProps => <Download />} />
           <Route exact path='/Feldenkrais/History' render={routerProps => <History />} />
           <Redirect exact from='/Feldenkrais/FeldenkraisHistory.html' to='/Feldenkrais/History'/>
           <Route exact path='/Feldenkrais/LessonList' render={routerProps => <Lessons />} />
