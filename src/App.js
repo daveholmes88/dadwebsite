@@ -25,6 +25,8 @@ import Performance from "./components/Dance/Performance";
 import ScottishCountry from "./components/Dance/ScottishCountry";
 import Square from "./components/Dance/Square";
 import Try from "./components/Dance/Try";
+import SquareLessons from "./components/Dance/Lessons";
+
 
 import MovementQuotes from "./components/Movement/Quotes";
 import Aikido from "./components/Movement/Aikido"
@@ -153,6 +155,8 @@ function App() {
           <Redirect exact from='/Dance/DanceSquare.html' to='/Dance/Square'/>
           <Route exact path='/Dance/Which' render={routerProps => <Try />} />
           <Redirect exact from='/Dance/DanceWhich.html' to='/Dance/Which'/>
+          <Route exact path='/Dance/Lessons' render={routerProps => <SquareLessons />} />
+          <Redirect exact from='/Dance/DanceBruceSD.html' to='/Dance/Lessons'/>
 
           <Route exact path='/Feldenkrais' render={routerProps => <Feldenkrais />} />
           <Redirect exact from='/Feldenkrais.html' to='/Feldenkrais'/>

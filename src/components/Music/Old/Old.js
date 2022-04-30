@@ -99,6 +99,7 @@ export default function Old() {
                             </Card>
                         </Col>
                         <Col>
+                        <br></br>
                             <div className='text-center'>
                                 <p>
                                     <span class='quote'>Bruce has delivered a beautiful CD with great songs and beautiful music.</span>

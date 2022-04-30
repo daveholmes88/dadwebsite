@@ -36,13 +36,6 @@ export default function Home() {
                         </a>
                     </Row>
                     <Row className="justify-content-end">
-                        <a href='/MailList'>
-                            <Card>
-                                <Card.Img src="MenuTouch.jpg" alt="Card Image" />
-                            </Card>
-                        </a>
-                    </Row>
-                    <Row className="justify-content-end">
                         <a href='/Triathlon/You'>
                             <Card>
                                 <Card.Img src="MenuTri.jpg" alt="Card Image" />
@@ -60,6 +53,13 @@ export default function Home() {
                         <a href='/Dance/Social'>
                             <Card>
                                 <Card.Img src="MenuDance.jpg" alt="Card Image" />
+                            </Card>
+                        </a>
+                    </Row>
+                    <Row className="justify-content-end">
+                        <a href='/Contact'>
+                            <Card>
+                                <Card.Img src="MenuTouch.jpg" alt="Card Image" />
                             </Card>
                         </a>
                     </Row>
