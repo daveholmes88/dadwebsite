@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap'
-import { AudioPlayerControlSprite, AudioPlayer, type TrackType } from 'react-audio-player-pro';
+import { AudioPlayerControlSprite, AudioPlayer } from 'react-audio-player-pro';
 import reactAudioPlayerProStyle from 'react-audio-player-pro/dist/style.css';
 
 
@@ -9,7 +9,7 @@ import MusicFootnote from '../MusicFootnote'
 
 export default function Life() {
 
-    const audioTrackList: Array<TrackType> = [
+    const audioTrackList = [
         {
             src: '/Music/LifeSongs/IDo.mp3',
             content: '1. I Do',
