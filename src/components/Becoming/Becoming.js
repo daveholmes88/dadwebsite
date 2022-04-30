@@ -16,7 +16,7 @@ export default function Becoming() {
                     <h4 className='text-center'>This is the book I wish I had when I was learning to call.</h4>
                     <Image
                         alt='becomingCover'
-                        src='/Becoming/BecomingCover.jpg'
+                        src='/Becoming/cover.jpeg'
                         fluid='true'
                     />
                 </Col>

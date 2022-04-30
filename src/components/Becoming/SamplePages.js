@@ -12,40 +12,62 @@ export default function SamplePages() {
                 <BecomingIndex />
                 <Col>
                     <BecomingTitle />
-                    <h3 className='text-center'>Sample Pages</h3>
+                    <h3 className='text-center'>Sample Beginner Pages</h3>
                     <Image
                         alt='sample1'
-                        src='/Becoming/BecomingSample1.jpg'
+                        src='/Becoming/page 20.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample2'
-                        src='/Becoming/BecomingSample2.jpg'
+                        src='/Becoming/page 21.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample3'
-                        src='/Becoming/BecomingSample3.jpg'
+                        src='/Becoming/page 22.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample4'
-                        src='/Becoming/BecomingSample4.jpg'
+                        src='/Becoming/page 23.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample5'
-                        src='/Becoming/BecomingSample5.jpg'
+                        src='/Becoming/page 24.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample6'
-                        src='/Becoming/BecomingSample6.jpg'
+                        src='/Becoming/page 25.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='sample7'
-                        src='/Becoming/BecomingSample7.jpg'
+                        src='/Becoming/page 26.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='sample7'
+                        src='/Becoming/page 27.jpg'
+                        fluid='true'
+                    />
+                    <br></br>
+                    <h3>Later Lesson: The Magic of Acey Deucey</h3>
+                    <Image
+                        alt='sample7'
+                        src='/Becoming/page 99.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='sample7'
+                        src='/Becoming/page 100.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='sample7'
+                        src='/Becoming/page 101.jpg'
                         fluid='true'
                     />
                 </Col>
