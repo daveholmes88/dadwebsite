@@ -38,8 +38,6 @@ export default function TriathlonIndex() {
                     <br></br>
                     <a href="/Triathlon/Strength">Strength Training</a>
                     <br></br>
-                    <a href="/Feldenkrais">Feldenkrais</a>
-                    <br></br>
                     <a href="/Triathlon/Nutrition" target="_self">Nutrition Basics</a>
                     <br></br>
                     <a href="/Triathlon/WeightLoss" target="_self">Losing Weight</a>
@@ -70,6 +68,8 @@ export default function TriathlonIndex() {
                     <br></br>
                     <a href="/Triathlon/MarathonSong" target="_self">Marathon (the song)</a>
                     <br></br>
+                    <br></br>
+                    <a href="/Feldenkrais">Also Try Feldenkrais</a>
                 </Container>
             </Card>
         </Col>

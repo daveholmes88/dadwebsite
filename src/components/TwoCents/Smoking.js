@@ -12,7 +12,7 @@ export default function Smoking() {
                 <Col>
                     <h1>Smoking</h1>
                     <div className='text-center'>
-                        <p>A cigarette addiction will cost you 1.5 million dollars over the course of you lifetime.</p>
+                        <p>A cigarette addiction will cost you 1.5 million dollars over the course of your lifetime.</p>
                         <p>It will limit the people who want to hang out with you. Nonsmokers will avoid you.</p>
                         <p>It will rob you of your wind and endurance.</p>
                         <p>It will ennable a wide variety of diseases.</p>

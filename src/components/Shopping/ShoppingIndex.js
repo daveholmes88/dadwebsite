@@ -14,8 +14,6 @@ export default function BecomingIndex() {
                     <br></br>
                     <a href='/Shop/Music'>Music</a>
                     <br></br><br></br>
-                    <a href='/Shop/TShirts'>T-Shirts</a>
-                    <br></br><br></br>
                     <a href='/Shop/SciFi'>Science Fiction</a>
                     <br></br><br></br>
                     <a href='/Shop/Shipping'>S&H Directions</a>

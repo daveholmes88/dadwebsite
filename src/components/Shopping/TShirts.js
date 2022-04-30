@@ -21,7 +21,7 @@ export default function TShirts() {
                                 />
                                 <h1>Life T-Shirts</h1>
                                 <h2>$12</h2>
-                                <h1>NEW PAYPAL BUTTON</h1>
+                                
                             </div>
                         </Col>
                         <Col sm={4}>
