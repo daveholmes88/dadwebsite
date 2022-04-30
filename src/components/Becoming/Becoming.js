@@ -19,6 +19,10 @@ export default function Becoming() {
                         src='/Becoming/cover.jpeg'
                         fluid='true'
                     />
+                    <h4>4th Edition</h4>
+                    <h4>8.5 x 11" 206 pages</h4>
+                    <p>wire spiral bound so it can lie flat</p>
+                    <p>Includes a pdf file of pages for mobile study</p>
                 </Col>
             </Row>
         </Container >
