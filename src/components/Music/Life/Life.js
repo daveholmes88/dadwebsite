@@ -135,12 +135,47 @@ export default function Life() {
                                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
                                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                                 </form>
+                                <p>or make it $14 and we'll throw in a t-shirt</p>
                                 <Image
                                     src='/Music/TshirtsSmallest.jpg'
                                     alt="shirts"
                                     fluid='true'
                                 />
-                                <h1>Insert New Paypal Button</h1>
+                                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <input type="hidden" name="on0" value="Comes with a t-shirt for $4 more" />
+                                                    Comes with a t-shirt for $4 more
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <select name="os0">
+	                                                    <option value="Small">Small </option>
+	                                                    <option value="Medium">Medium </option>
+	                                                    <option value="Large">Large </option>
+	                                                    <option value="XL">XL </option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <input type="hidden" name="on1" value="Color Pref: Blue, Red or Green" />
+                                                Color Pref: Blue, Red or Green
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="text" name="os1" maxlength="200" />
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+                                </form>
                             </div>
                         </Col>
                     </Row>
