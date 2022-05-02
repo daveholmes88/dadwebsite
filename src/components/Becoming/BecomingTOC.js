@@ -15,22 +15,22 @@ export default function BecomingTOC() {
                     <h3 className='text-center'>Table of Contents</h3>
                     <Image
                         alt='tc1'
-                        src='/Becoming/BecomingTOC1-650.jpg'
+                        src='/Becoming/page1.jpeg'
                         fluid='true'
                     />
                     <Image
                         alt='tc1'
-                        src='/Becoming/BecomingTOC2-650.jpg'
+                        src='/Becoming/page 2.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='tc1'
-                        src='/Becoming/BecomingTOC3-650.jpg'
+                        src='/Becoming/page 3.jpg'
                         fluid='true'
                     />
                     <Image
                         alt='tc1'
-                        src='/Becoming/BecomingTOC4-650.jpg'
+                        src='/Becoming/page 4.jpg'
                         fluid='true'
                     />
                 </Col>
