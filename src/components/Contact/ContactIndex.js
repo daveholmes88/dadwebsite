@@ -9,9 +9,9 @@ export default function ContactIndex() {
             <Card border='dark'>
                 <Container>
                     <h3>Staying in Touch</h3>
-                    <br></br>
-                    <a href='/MailList'>Join the Mail List</a>
-                    <br></br><br></br>
+                    {/* <br></br> */}
+                    {/* <a href='/MailList'>Join the Mail List</a>
+                    <br></br><br></br> */}
                     <a href='/Contact'>Contact Bruce</a>
                     <br></br><br></br>
                 </Container>

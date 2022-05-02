@@ -10,6 +10,7 @@ export default function SwitchTime() {
             <Row>
                 <SciFiIndex />
                 <Col>
+                <br></br>
                     <h1 className='text-center'>The Switch of Time</h1>
                     <p>I suppose everyone has at least one story to tell at the end of a long life.  You're about to hear mine.</p>
                     <p> I work at Deep One.  You've never heard of it, right?  We're a jointly funded venture of M.I.T., Cal-Tech, and Galileo Observatory (probably the only thing they've ever been able to cooperate on).  Deep One is about three light years out from anywhere in the hopes of avoiding any hint of a gravity well.  And, of course, that's impossible.  Old Heisenberg again.  Just having a station out here creates a gravity well.  If we tried to beam the signals somewhere, even that would affect the patterns.</p>

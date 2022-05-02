@@ -25,6 +25,8 @@ export default function DanceIndex() {
                     <br></br><br></br>
                     <a href='/Dance/Which'>Which To Try</a>
                     <br></br><br></br>
+                    <a href='/Dance/Lessons'>Bruce's Square Dance Lessons</a>
+                    <br></br><br></br>
                     <a href='/Becoming'>Becoming a Square Dance Caller</a>
                     <br></br><br></br>
                 </Container>

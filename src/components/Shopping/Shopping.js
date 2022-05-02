@@ -10,7 +10,15 @@ export default function Shopping() {
             <Row>
                 <ShoppingIndex />
                 <Col>
-                    <h1>Shipping Charges, Directions</h1>
+                    <br></br>
+                    <h4>We've got Music CDs, Books, T-shirts,
+                    almost all you need for a fulfilled life.</h4>
+                        <h4>(The Feldenkrais Lessons are delivered as a
+                        download and puchased <a href="/Feldenkrais">here</a>)</h4>
+                        <h4>Everything comes with a satisfaction guarantee:
+                        If you're not delighted, your money will be refunded</h4>
+                    <br></br>
+                    <h4>Shipping Charges, Directions</h4>
                     <p>When I'm sending out a single CD, I typically use First Class Mail. The Post Office has never lost one of my shipments and the delivery time is excellent, usually a few days or less. If I'm sending a book out, I'll use media mail because it's so much cheaper than parcel post. Even then delivery is fairly quick.</p>
                     <p>Shipping & Handling to the United States and its territories is $4, no matter how much you order.</p>
                     <p>For Canada the rate is $10.</p>
