@@ -10,15 +10,6 @@
     display:block
 }
 
-#jumbotron {
-	background: url('./HSStool.jpg') no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-bottom: 0px;
-}
-
 .picture {
     padding-right: 10px;
 }
@@ -45,6 +36,17 @@ body{
 
 #card-container {
   overflow-y: scroll;
-  max-height: 500px;
-  padding-right: 15px;
+  max-height: 83vh;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+#background {
+  background: url('./HSStool.jpg') no-repeat;
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -118,6 +118,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' render={routerProps => <Home />} />
+          <Redirect exact from='/index.html' to='/Becoming'/>
 
           <Route exact path='/admin' render={routerProps => <Admin />} />
 

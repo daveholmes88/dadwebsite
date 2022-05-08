@@ -1,11 +1,11 @@
 import React from "react"
-import { Jumbotron, Card, Row } from 'react-bootstrap';
+import { Card, Row } from 'react-bootstrap';
+import '../App.css'
 
 export default function Home() {
 
     return (
-        <div>
-            <Jumbotron id='jumbotron'>
+        <div id='background'>
                 <div id='card-container'>
                     <Row className="justify-content-end">
                         <a href='/Feldenkrais'>
@@ -64,7 +64,6 @@ export default function Home() {
                         </a>
                     </Row>
                 </div>
-            </Jumbotron>
         </div >
     )
 }
