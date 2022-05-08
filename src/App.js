@@ -117,8 +117,6 @@ function App() {
       <div>
         <NavBar />
         <Switch>
-          <Route exact path='/' render={routerProps => <Home />} />
-          <Redirect exact from='/index.html' to='/Becoming'/>
 
           <Route exact path='/admin' render={routerProps => <Admin />} />
 
@@ -312,6 +310,9 @@ function App() {
           <Redirect exact from='/Shop/ShopMusic.html' to='/Shop/Music'/>
           <Route exact path='/Shop/TShirts' render={routerProps => <ShoppingTShirts />} />
           <Redirect exact from='/Shop/ShopTShirts.html' to='/Shop/TShirts'/>
+
+          <Route path='/' render={routerProps => <Home />} />
+          <Redirect exact from='/index.html' to='/'/>
         </Switch>
       </div>
     </BrowserRouter>
