@@ -72,7 +72,7 @@ export default function SamplePages() {
                     />
                     <Image
                         alt='sample12'
-                        src='/Becoming/page 102.jpg'
+                        src='/Becoming/page 102.jpeg'
                         fluid='true'
                     />
                 </Col>
