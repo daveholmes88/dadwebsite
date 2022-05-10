@@ -49,25 +49,30 @@ export default function SamplePages() {
                         fluid='true'
                     />
                     <Image
-                        alt='sample7'
+                        alt='sample8'
                         src='/Becoming/page 27.jpg'
                         fluid='true'
                     />
                     <br></br>
                     <h3>Later Lesson: The Magic of Acey Deucey</h3>
                     <Image
-                        alt='sample7'
+                        alt='sample9'
                         src='/Becoming/page 99.jpg'
                         fluid='true'
                     />
                     <Image
-                        alt='sample7'
+                        alt='sample10'
                         src='/Becoming/page 100.jpg'
                         fluid='true'
                     />
                     <Image
-                        alt='sample7'
+                        alt='sample11'
                         src='/Becoming/page 101.jpg'
+                        fluid='true'
+                    />
+                    <Image
+                        alt='sample12'
+                        src='/Becoming/page 102.jpg'
                         fluid='true'
                     />
                 </Col>
