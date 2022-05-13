@@ -159,7 +159,7 @@ function App() {
 
           <Route exact path='/Feldenkrais' render={routerProps => <Feldenkrais />} />
           <Redirect exact from='/Feldenkrais.html' to='/Feldenkrais'/>
-          <Route exact path='/Feldenkrais/Download.html' render={routerProps => <Download />} />
+          <Route exact path='/PayPalDReturn.html' render={routerProps => <Download />} />
           <Route exact path='/Feldenkrais/History' render={routerProps => <History />} />
           <Redirect exact from='/Feldenkrais/FeldenkraisHistory.html' to='/Feldenkrais/History'/>
           <Route exact path='/Feldenkrais/LessonList' render={routerProps => <Lessons />} />
