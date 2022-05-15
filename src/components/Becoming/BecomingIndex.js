@@ -18,7 +18,9 @@ export default function BecomingIndex() {
                     <br></br><br></br>
                     <a href='/BecomingTOC'>Table of Contents</a>
                     <br></br><br></br>
-                    <a href='/BecomingSPages'>Sample Pages</a>
+                    <a href='/BecomingSPages'>Beginner Sample Pages</a>
+                    <br></br><br></br>
+                    <a href='/BecomingAdvanced'>Advanced Sample Pages</a>
                     <br></br><br></br>
                     <a href='/BecomingQuotes'>Quotes</a>
                     <br></br><br></br>

@@ -11,6 +11,7 @@ import JoinMailList from "./components/Contact/JoinMailList";
 import ContactBruce from "./components/Contact/ContactBruce";
 
 import Becoming from "./components/Becoming/Becoming";
+import BecomingAdvanced from "./components/Becoming/Advanced";
 import BecomingTOC from "./components/Becoming/BecomingTOC";
 import HowToOrder from "./components/Becoming/HowToOrder";
 import Quotes from "./components/Becoming/Quotes";
@@ -122,6 +123,7 @@ function App() {
 
           <Route exact path='/Becoming' render={routerProps => <Becoming />} />
           <Redirect exact from='/Becoming.html' to='/Becoming'/>
+          <Route exact path='/BecomingAdvanced' render={routerProps => <BecomingAdvanced />} />
           <Route exact path='/BecomingTOC' render={routerProps => <BecomingTOC />} />
           <Redirect exact from='/BecomingTOC.html' to='/BecomingTOC'/>
           <Route exact path='/BecomingSPages' render={routerProps => <SamplePages />} />
