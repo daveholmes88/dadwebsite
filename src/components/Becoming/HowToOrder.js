@@ -25,7 +25,7 @@ export default function HowToOrder() {
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                             </form>
                             <br></br><br></br>
-                            <h3><h2>Canada: S&H = $17, total = $62</h2></h3>
+                            <h3><h2>Canada: S&H = $22, total = $62</h2></h3>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick" />
                                 <input type="hidden" name="hosted_button_id" value="EUM9QFA9352MC" />
@@ -33,7 +33,7 @@ export default function HowToOrder() {
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
                             </form>
                             <br></br><br></br>
-                            <h3><h2>Overseas: S&H = $24, total = $70</h2></h3>
+                            <h3><h2>Overseas: S&H = $30, total = $70</h2></h3>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick" />
                                 <input type="hidden" name="hosted_button_id" value="GUUDYMEVUSW98" />
