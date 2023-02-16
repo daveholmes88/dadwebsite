@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col, Image, Button } from 'react-bootstrap'
 
 import SciFiIndex from './SciFiIndex'
 
@@ -25,12 +25,9 @@ export default function SciFi() {
                                 <h1 className='text-center'>Anvil of the Heart</h1>
                                 <h4 className='text-center'>$20 Autographed Hardcover</h4>
                                 <div class='text-right'>
-                                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="AnvilPayPal" target="paypal" id="AnvilPayPal">
-                                        <input type="hidden" name="cmd" value="_s-xclick" />
-                                        <input type="hidden" name="hosted_button_id" value="9310939" />
-                                        <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-                                    </form>
+                                    <a href='/SciFi/AnvilOrder'><Button variant='dark'>Buy Now</Button></a>
                                 </div>
+                                <br></br>
                                 <p class='image-text'>
                                     This is a science fiction novel of mine published in 1984. For one brief and oh-so-ephemeral moment that summer it led the Nebula Nominations for best novel, then got left in the dust. It also made the Locus recommended list for that year and was a Prometheus Nominee. It was translated into German and Japanese. Get in touch if you want one of the foreign editions.
                                 </p>

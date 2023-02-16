@@ -90,6 +90,7 @@ import AuthorQuotes from "./components/SciFi/AuthorQuotes"
 import FanQuotes from "./components/SciFi/FanQuotes"
 import FirstChapter from "./components/SciFi/FirstChapter"
 import SwitchTime from "./components/SciFi/SwitchTime"
+import AnvilOrder from "./components/SciFi/AnvilOrder"
 
 import Shopping from "./components/Shopping/Shopping"
 import ShoppingMusic from "./components/Shopping/Music"
@@ -217,6 +218,7 @@ function App() {
           <Redirect exact from='/SciFi/AnvilChap1.html' to='/SciFi/AnvilChap1'/>
           <Route exact path='/SciFi/Switch' render={routerProps => <SwitchTime />} />
           <Redirect exact from='/SciFi/Switch.html' to='/SciFi/Switch'/>
+          <Route exact path='/SciFi/AnvilOrder' render={routerProps => <AnvilOrder />} />
 
           <Route exact path='/Triathlon/MarathonSong' render={routerProps => <MarathonSong />} />
           <Redirect exact from='/Triathlon/Marathon/MarathonSong.html' to='/Triathlon/MarathonSong'/>
