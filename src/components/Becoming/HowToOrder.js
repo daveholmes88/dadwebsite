@@ -17,7 +17,7 @@ export default function HowToOrder() {
                             <h3 className='text-center'>$40 plus S&H</h3>
                             <h4>8.5x11" 206 Pages</h4>
                             <p>Wire sprial bound so it can lie flat</p>
-                            <h3><h2>USA: S&H = $4, total = $44</h2></h3>
+                            <h3><h2>USA: S&H = $7, total = $47</h2></h3>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick" />
                                 <input type="hidden" name="hosted_button_id" value="63ECV6W4VGA7L" />
