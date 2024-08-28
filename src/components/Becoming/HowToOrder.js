@@ -13,7 +13,10 @@ export default function HowToOrder() {
                 <Col>
                     <BecomingTitle />
                         <Container>
-                            <h3 className='text-center'><h1>How To Order</h1></h3>
+                            <h3>Thank you for your interest in Becoming a Square Dance Caller.</h3>
+                            <h4>Unfortunately, due to some health issues we have been forced to pause the sale of this book. If you are interested in buying once sales have continued please email my son at daveholmes88@gmail.com</h4>
+                            <h4>Thank you for your understanding.</h4>
+                            {/* <h3 className='text-center'><h1>How To Order</h1></h3>
                             <h3 className='text-center'>$40 plus S&H</h3>
                             <h4>8.5x11" 206 Pages</h4>
                             <p>Wire sprial bound so it can lie flat</p>
@@ -46,7 +49,7 @@ export default function HowToOrder() {
                             <br></br>Bruce Holmes
                             <br></br>1115 Mulford St
                             <br></br>Evanston, IL 60202-3318
-                        </p>
+                        </p> */}
                         </Container>
                 </Col>
             </Row>

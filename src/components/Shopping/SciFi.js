@@ -11,7 +11,10 @@ export default function SciFi() {
                 <ShoppingIndex />
                 <Col>
                     <h1>SciFi</h1>
-                    <Row>
+                    <h3>Thank you for your interest in Anvil of the Heart.</h3>
+                    <h4>Unfortunately, due to some health issues we have been forced to pause the sale of this book. If you are interested in buying once sales have continued please email my son at daveholmes88@gmail.com</h4>
+                    <h4>Thank you for your understanding.</h4>
+                    {/* <Row>
                         <Col>
                             <Image
                                 src='/AnvilCover.jpg'
@@ -46,7 +49,7 @@ export default function SciFi() {
                                 <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
                             </div>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </Col>
             </Row>
         </Container>

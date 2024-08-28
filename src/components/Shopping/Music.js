@@ -11,9 +11,12 @@ export default function Music() {
                 <ShoppingIndex />
                 <Col>
                     <h1>Music</h1>
+                    <h3>Thank you for your interest in my music.</h3>
+                    <h4>Unfortunately, due to some health issues we have been forced to pause sales for a short time. Please check out my music on Spotify or Apple Music.</h4>
+                    <h4>Thank you for your understanding.</h4>
                     <Row>
                         <Col sm={6}>
-                            <Image
+                            {/* <Image
                                 src='/Music/LifeCover.jpg'
                                 alt='lifeShopping'
                                 fluid='true'
@@ -152,7 +155,7 @@ export default function Music() {
                                     fluid='true'
                                     alt='okrshirt'
                                 />
-                            </div>
+                            </div> */}
                         </Col>
                     </Row>
                 </Col>

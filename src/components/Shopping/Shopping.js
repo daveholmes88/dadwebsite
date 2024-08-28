@@ -15,7 +15,9 @@ export default function Shopping() {
                     almost all you need for a fulfilled life.</h4>
                         <h4>(The Feldenkrais Lessons are delivered as a
                         download and puchased <a href="/Feldenkrais">here</a>)</h4>
-                        <h4>Everything comes with a satisfaction guarantee:
+                        <h4>Unfortunately, due to some health issues we have been forced to pause all non-automated sales for a short time.</h4>
+                        <h4>Thank you for your understanding.</h4>
+                        {/* <h4>Everything comes with a satisfaction guarantee:
                         If you're not delighted, your money will be refunded</h4>
                     <br></br>
                     <h4>Shipping Charges, Directions</h4>
@@ -27,7 +29,7 @@ export default function Shopping() {
                     <p>Transactions are handled by PayPal. With PayPal you always have the option of paying with a credit card; just look for that option on the screen - it's there. PayPal has solid security in place. If you wish to buy more than one of an item, you'll be able to modify the quantity in the cart. If you have any difficulty you can email me at:</p>
                     <p>Bruce (symbol for at) BruceTHolmes.com</p>
                     <p>If you would be more comfortable paying by check, you can always send me a check at:</p>
-                    <p>Bruce Holmes, 1115 Mulford Street, Evanston, IL 60202-3318</p>
+                    <p>Bruce Holmes, 1115 Mulford Street, Evanston, IL 60202-3318</p> */}
                 </Col>
             </Row>
         </Container>
