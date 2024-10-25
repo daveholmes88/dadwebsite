@@ -7,6 +7,8 @@ export default function Download() {
         <Container>
             <h1>THIS IS WHERE YOU DOWNLOAD THE FELDENKRAIS MP3S!!!!</h1>
             <a href='/bruceholmes.zip' download><Button >DOWNLOAD THE MP3s WITH THIS BUTTON!!!!</Button></a>
+            <br></br><br></br>
+            <h3>If you have any issues please email my son Dave at DaveHolmes88@gmail.com</h3>
         </Container>
     )
 }
