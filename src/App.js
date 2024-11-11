@@ -16,6 +16,7 @@ import BecomingTOC from "./components/Becoming/BecomingTOC";
 import HowToOrder from "./components/Becoming/HowToOrder";
 import Quotes from "./components/Becoming/Quotes";
 import SamplePages from "./components/Becoming/SamplePages";
+import BecomingDownload from "./components/Becoming/BecomingDownload";
 
 import SocialDance from "./components/Dance/SocialDance";
 import Ballroom from "./components/Dance/Ballroom";
@@ -133,6 +134,7 @@ function App() {
           <Redirect exact from='/BecomingQuotes.html' to='/BecomingQuotes'/>
           <Route exact path='/BecomingHowToOrder' render={routerProps => <HowToOrder />} />
           <Redirect exact from='/BecomingHowToOrder.html' to='/BecomingHowToOrder'/>
+          <Route exact path='/PayPalBecomingReturn.html' render={routerProps => <BecomingDownload />} />
 
           <Route exact path='/MailList' render={routerProps => <JoinMailList />} />
           <Redirect exact from='/Touch/TouchMailList.html' to='/MailList'/>
