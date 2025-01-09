@@ -10,7 +10,7 @@ export default function BecomingIndex() {
                     <h2>Becoming a Square Dance Caller</h2>
                     <Image
                         alt='becomingCover'
-                        src='/Becoming/cover.jpeg'
+                        src='/Becoming/BecomingCover.png'
                         fluid='true'
                     />
                     <br></br>
