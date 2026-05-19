@@ -20,9 +20,7 @@ export default function Becoming() {
                         fluid='true'
                     />
                     <h4>5th Edition</h4>
-                    <h4>8.5 x 11" 206 pages</h4>
-                    <p>wire spiral bound so it can lie flat</p>
-                    <p>Includes a pdf file of pages for mobile study</p>
+                    <h4>206 pages</h4>
                 </Col>
             </Row>
         </Container >
